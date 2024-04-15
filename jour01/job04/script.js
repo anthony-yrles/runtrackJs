@@ -1,4 +1,5 @@
 function bisextile(annee) {
+    // If the year is divisible by 4 or 400, it is a leap year
     if ((annee % 4 == 0 && annee % 100 != 0) || annee % 400 == 0) {
         return true;
     }

@@ -1,4 +1,4 @@
-// Fonction permettant d'afficher un pop-up
+// Function: Display an alert when the page is loaded
 window.onload = function() {
     alert("Hello JavaScript!");
 };
