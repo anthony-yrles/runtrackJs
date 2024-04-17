@@ -1,0 +1,9 @@
+#rainbow {
+    display: flex;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
