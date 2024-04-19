@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <script src="connexion.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="inscription.php">Inscription</a>
+        <a href="connexion.php">Connexion</a>
+    </nav>
+    <h2>Connexion</h2>
+    <form id="connexionForm" action="connexion.php" method="POST">
+        <section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+        </section>
+        <section>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="passwordError" class="error"></span>
+        </section>
+        <button type="submit">Connexion</button>
+    </form>
+    <script src="connexion.js"></script>
+</body>
+</html>

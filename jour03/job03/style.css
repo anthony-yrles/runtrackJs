@@ -1,0 +1,18 @@
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 222px);
+    grid-template-rows: repeat(3, 258px);
+    gap: 5px;
+}
+
+.tile {
+    width: 222px;
+    height: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#empty {
+    background-color: transparent;
+}

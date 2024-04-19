@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <script src="connexion.js"></script>
+</head>
+<body>
+    <nav>
+        <a href="inscription.php">Inscription</a>
+        <a href="connexion.php">Connexion</a>
+    </nav>
+    <h2>Inscription</h2>
+    <form id="inscriptionForm" action="inscription.php" method="POST">
+        <section>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <span id="nomError" class="error"></span>
+        </section>
+        <section>
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <span id="prenomError" class="error"></span>
+        </section>
+        <section>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <span id="emailError" class="error"></span>
+        </section>
+        <section>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
+            <span id="passwordError" class="error"></span>
+        </section>
+        <section>
+            <label for="adresse">Adresse:</label>
+            <input type="text" id="adresse" name="adresse">
+            <span id="adresseError" class="error"></span>
+        </section>
+        <section>
+            <label for="codePostal">Code postal:</label>
+            <input type="text" id="codePostal" name="codePostal">
+            <span id="codePostalError" class="error"></span>
+        </section>
+        <button type="submit">Inscription</button>
+    </form>
+    <script src="inscription.js"></script>
+</body>
+</html>
